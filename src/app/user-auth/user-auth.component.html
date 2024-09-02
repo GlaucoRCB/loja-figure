@@ -1,0 +1,29 @@
+<div class="user-auth">
+    <div *ngIf="showLogin" class="user-login">
+        <h1>Login Usuário</h1>
+        <form #userLogin="ngForm" class="comom-form" (ngSubmit)="login(userLogin.value)">
+            <p class="error-p">{{authError}}</p>
+            <input type="text" class="form-input" placeholder="digite seu email" name="email" ngModel #email="ngModel" required/>
+            <p class="invalid-input"><span *ngIf="email.invalid && email.touched">Necessário digitar um email válido!</span></p>
+            <input type="password" class="form-input" placeholder="digite sua senha" name="password" ngModel #password="ngModel" required/>
+            <p class="invalid-input"><span *ngIf="password.invalid && password.touched">Necessário digitar uma senha válida!</span></p>
+            <button [disabled]="userLogin.invalid" class="form-button"> Login </button>
+            <a class="auth-toggle-link" (click)="openSingup()">Ainda não está cadastrado? - Clique aqui para se registrar</a>
+        </form>
+    </div>
+    
+    <div *ngIf="!showLogin" class="user-Singup">
+        <h1>Cadastrar Usuário</h1>
+        <form #userSingup="ngForm" class="comom-form" (ngSubmit)="singup(userSingup.value)">
+            <p class="error-p">{{authError}}</p>
+            <input type="text" class="form-input" placeholder="digite seu nome" name="name" ngModel #name="ngModel" required/>
+            <p class="invalid-input"><span *ngIf="name.invalid && name.touched">Necessário inserir um nome!</span></p>
+            <input type="password" class="form-input" placeholder="digite sua senha" name="password" ngModel minlength="5" #password="ngModel" required/>
+            <p class="invalid-input"><span *ngIf="password.invalid && password.touched">Necessário digitar uma senha válida!</span></p>
+            <input type="text" class="form-input" placeholder="digite seu email" name="email" ngModel #email="ngModel" required=""/>
+            <p class="invalid-input"><span *ngIf="email.invalid && email.touched">Necessário digitar um email válido!</span></p>
+            <button [disabled]="userSingup.invalid" class="form-button"> Cadastrar </button>
+            <a class="auth-toggle-link" (click)="openLogin()">Já é cadastrado? - Clique aqui para entrar.</a>
+        </form>
+    </div>
+</div>

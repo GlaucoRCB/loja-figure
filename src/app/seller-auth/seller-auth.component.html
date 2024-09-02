@@ -1,0 +1,29 @@
+<div class="seller-auth">
+    <div *ngIf="showLogin" class="login">
+        <h1>Login Vendedor</h1>
+        <form #sellerLogin="ngForm" (ngSubmit)="login(sellerLogin.value)" class="comom-form">
+            <p class="error-p">{{authError}}</p>
+            <input type="text" class="form-input" placeholder="Digite seu email" name="email" ngModel #email="ngModel" required/>
+            <p class="invalid-input"><span *ngIf="email.invalid && email.touched">Necessário digitar um email válido!</span></p>
+            <input type="password" class="form-input" placeholder="Digite sua senha" name="password" ngModel #password="ngModel" required/>
+            <p class="invalid-input"><span *ngIf="password.invalid && password.touched">Necessário digitar uma senha válida!</span></p>
+            <button [disabled]="sellerLogin.invalid" class="form-button">Login</button>
+            <a class="auth-toggle-link" (click)="openSingUp()">Ainda não está cadastrado? - Clique aqui para se registrar.</a>
+        </form>
+    </div>
+
+    <div *ngIf="!showLogin" class="sign-up">
+        <h1>Cadastrar Vendedor</h1>
+        <form #sellerSignUp="ngForm" (ngSubmit)="singUp(sellerSignUp.value)" class="comom-form">
+            <p class="error-p">{{authError}}</p>
+            <input type="text" class="form-input" placeholder="Digite seu nome" name="name" ngModel #name="ngModel" required/>
+            <p class="invalid-input"><span *ngIf="name.invalid && name.touched">Necessário inserir um nome!</span></p>
+            <input type="password" class="form-input" placeholder="Digite sua senha" name="password" ngModel minlength="5" #password="ngModel" required/>
+            <p class="invalid-input"><span *ngIf="password.invalid && password.touched">Necessário digitar uma senha válida!</span></p>
+            <input type="text" class="form-input" placeholder="Digite seu email" name="email" ngModel #email="ngModel" required/>
+            <p class="invalid-input"><span *ngIf="email.invalid && email.touched">Necessário digitar um email válido!</span></p>
+            <button [disabled]="sellerSignUp.invalid" class="form-button">Cadastrar Vendedor</button>
+            <a class="auth-toggle-link" (click)="openLogin()">Já é cadastrado? - Clique aqui para entrar.</a>
+        </form>
+    </div>
+</div>

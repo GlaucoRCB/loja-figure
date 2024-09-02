@@ -1,0 +1,56 @@
+.product-details{
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.product-details .product-image{
+    width: 80%;
+    height: 70%;
+    object-fit: fill;
+    border: 3px solid rgba(255, 255, 255, 0.774);
+    border-radius: 10px;
+}
+
+.quantity-group{
+    margin-top: 20px;
+}
+
+.quantity-group button{
+    padding: 10px;
+    margin-left: 3px !important;
+    border-radius: 5px;
+}
+
+.quantity-group input{
+    padding: 3px;
+    width: 50px;
+    margin-left: 3px !important;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.quantity-group{
+    margin-top: 20px;
+    margin-left: 3px !important;
+    border-radius: 5px;
+}
+
+.quantity-group button{
+    width: 30px;
+    padding: 5px;
+    background-color: rgb(247, 213, 102);
+}
+
+.form-button{
+    margin-left: 3px !important;
+    border-radius: 5px;
+    background-color: rgb(247, 213, 102);
+}
+
+.details{
+    color: white;
+}
+
+.details h4{
+    color: rgb(247, 213, 102);
+}

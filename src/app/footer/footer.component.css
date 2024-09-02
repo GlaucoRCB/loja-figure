@@ -1,0 +1,30 @@
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.footer{
+    padding: 10px;
+    text-align: center;
+    bottom:0;
+    right: 0;
+    left: 0;
+    color: yellow;
+    background-color: #0000007d;
+    position:fixed;
+}
+
+.footer ul{
+    list-style-type: none;
+    justify-content:space-around;
+    display: flex;
+}
+
+.footer ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.footer p{
+    margin-bottom: -5px;
+}

@@ -1,0 +1,15 @@
+.seller-auth h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    color: rgb(255, 255, 255);
+}
+
+.auth-toggle-link{
+    color: rgb(247, 213, 102);
+    font-size: 16px;
+    margin-top: 17px;
+    text-align: left;
+    cursor: pointer;
+    text-decoration: underline;
+}

@@ -1,0 +1,44 @@
+.checkout h1 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.checkout h2 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(247, 213, 102);
+}
+
+.checkout h3 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.checkout h4 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.checkout button {
+    background-color: rgb(194, 253, 105);
+    color: black;
+}
+
+.checkout select {
+    font-size: 20px;
+}
+
+.checkout img {    
+    width: 100px;
+}
+
+.imgs {
+    margin-left: 60px;
+}

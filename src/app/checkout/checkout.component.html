@@ -1,0 +1,30 @@
+<div class="checkout">
+    <h1>Dados Para Pagamento</h1>
+    <p class="message-p">{{orderMsg}}</p>
+    <div class="row">
+        <div class="col-sm-7">
+            <h3>Digite seu endereço</h3>
+            <form #orderData="ngForm" class="comom-form" (ngSubmit)="orderNow(orderData.value)">
+                <input type="text" class="form-input" name="email" placeholder="Digite seu email" ngModel />
+
+                <input type="text" class="form-input" name="address" placeholder="Digite seu endereço" ngModel />
+
+                <input type="text" class="form-input" name="contact" placeholder="Digite seu telefone" ngModel />
+                <button class="form-button">Finalizar Pedido</button>
+            </form>
+        </div>
+        <div class="col-sm-5">
+            <h2>Total Pagar : R$ {{totalPrice}}</h2>
+            <h4>Método De Pagamento : <select [(ngModel)]="payment">
+                    <option *ngFor="let payMetod of payMetods" [value]="payMetod">{{ payMetod }}</option>
+                </select></h4>
+            <div class="imgs">
+                <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Mastercard_2019_logo.svg/800px-Mastercard_2019_logo.svg.png">
+                <img src="https://logosmarcas.net/wp-content/uploads/2020/04/Visa-Emblema.png">
+                <img src="https://logospng.org/download/pix/logo-pix-512.png">
+                <img src="https://imagepng.org/wp-content/uploads/2019/09/boleto-simbolo-1.png">
+            </div>
+        </div>
+    </div>
+</div>

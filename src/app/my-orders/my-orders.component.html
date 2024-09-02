@@ -1,0 +1,38 @@
+<div class="my-orders">
+    <h1>Meus Pedidos</h1>
+    <div class="row">
+        <div class="col-sm-2">
+            <img src="">Pedido
+        </div>
+        <div class="col-sm-2">
+            <span>Pedido Id</span>
+        </div>
+        <div class="col-sm-2">
+            <span>Preço</span>
+        </div>
+        <div class="col-sm-2">
+            <span>Status:</span>
+        </div>
+        <div class="col-sm-2">
+            <span>Ação</span>
+        </div>
+    </div>
+
+    <div class="row order-data" *ngFor="let order of orderData">
+        <div class="col-sm-2">
+            <img class="order-img" src="https://cdn-icons-png.flaticon.com/512/5234/5234583.png">
+        </div>
+        <div class="col-sm-2">
+            <span>{{order.id}}</span>
+        </div>
+        <div class="col-sm-2">
+            <span>{{order.totalPrice}}</span>
+        </div>
+        <div class="col-sm-2">
+            <span>Em andamento</span>
+        </div>
+        <div class="col-sm-2">
+            <span><button class="form-button" (click)="cancelOrder(order.id)">Cancelar Pedido</button></span>
+        </div>
+    </div>
+</div>

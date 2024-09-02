@@ -1,0 +1,187 @@
+{
+  "seller": [
+    {
+      "id": "1e31",
+      "name": "Silent Magician",
+      "password": "silentmagician",
+      "email": "silentmagician@gmail.com"
+    },
+    {
+      "id": "53ce",
+      "name": "Vendedor1",
+      "password": "vendedor1",
+      "email": "vendedor1@gmail.com"
+    },
+    {
+      "id": "c073",
+      "name": "aweaweawe",
+      "password": "1231231231",
+      "email": "aweawe"
+    }
+  ],
+  "products": [
+    {
+      "name": "Mona Figure",
+      "price": "500.00",
+      "category": "Action Figure",
+      "description": "Action figure da personagem Mona do jogo Genshin Impact.",
+      "image": "https://salsicha1001.github.io/PhotosSalsicha3d/3D/Actions%20Figures/genshin%20impact/Mona/AC535C81-8BB4-4763-AC32-9189A0EE5C04(1).jpg",
+      "id": "1f24"
+    },
+    {
+      "id": "7446",
+      "name": "Hello Kitty X Dark Magician",
+      "price": "50.00",
+      "category": "Mini Figure",
+      "description": "Figure em parceria da Hello Kitty X Yu-Gi-Oh!",
+      "image": "https://salsicha1001.github.io/PhotosSalsicha3d/3D/Actions%20Figures/hello%20kitty/Mago%20negro/IMG_20240810_182229.jpg"
+    },
+    {
+      "id": "01e7",
+      "name": "Máscara Yone - HeartSteel",
+      "price": "100.00",
+      "category": "Máscara",
+      "description": "Máscara do personagem Yone de League of Legends",
+      "image": "https://salsicha1001.github.io/PhotosSalsicha3d/3D/Actions%20Figures/Cosplay/Heartsteel/Yone/Picsart_24-08-04_11-00-34-706.png"
+    },
+    {
+      "id": "d665",
+      "name": "Escudo do Link",
+      "price": "1500.00",
+      "category": "Prop ",
+      "description": "Escudo do personagem Link do jogo The Legend Of Zelda",
+      "image": "https://static.wixstatic.com/media/df48ed_4036a66196e24a91b2713f7a9a81802c~mv2.jpg/v1/fill/w_480,h_644,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/df48ed_4036a66196e24a91b2713f7a9a81802c~mv2.jpg"
+    },
+    {
+      "id": "147d",
+      "name": "Master Sword Danificada",
+      "price": "1000.00",
+      "category": "Prop",
+      "description": "Espada do personagem Link do jogo The Legend Of Zelda",
+      "image": "https://salsicha1001.github.io/PhotosSalsicha3d/3D/Actions%20Figures/Cosplay/Master%20sword%20danificada/IMG-20240208-WA0548.jpg"
+    },
+    {
+      "id": "e843",
+      "name": "Eren Figure",
+      "price": "450.00",
+      "category": "Action Figure",
+      "description": "Action Figure do personagem Eren Yeager do anime Attack On titan",
+      "image": "https://salsicha1001.github.io/PhotosSalsicha3d/3D/Actions%20Figures/Attack%20on%20titan/Eren/87D4F531-85E0-48C4-A9A0-11312034CBB4.jpeg"
+    },
+    {
+      "id": "764f",
+      "name": "Polvo - suporte para vinho",
+      "price": "100.00",
+      "category": "Utilitário",
+      "description": "Suporte para vinho, temático de polvo",
+      "image": "https://fbi.cults3d.com/uploaders/20779949/illustration-file/4fc326d0-8b6b-4927-a54e-780a6257ca9b/00.png"
+    },
+    {
+      "id": "6ca3",
+      "name": "Majora's Mask",
+      "price": "350.00",
+      "category": "Máscara",
+      "description": "Máscara do personagem Majora's Mask do jogo The Legend of Zelda",
+      "image": "https://salsicha1001.github.io/PhotosSalsicha3d/3D/Zelda%203D/3D2.jpg"
+    },
+    {
+      "id": "350e",
+      "name": "Kai'sa Figure",
+      "price": "600.00",
+      "category": "Action Figure",
+      "description": "Action Figure da personagem Kai'sa de League of Legends",
+      "image": "https://salsicha1001.github.io/PhotosSalsicha3d/3D/Actions%20Figures/league%20of%20legends/kaisa/Kai’sa/27360C65-39E8-4BFC-AA6E-F82343339804.jpeg"
+    },
+    {
+      "id": "68d6",
+      "name": "Hollow Knight Mask",
+      "price": "150.00",
+      "category": "Máscara",
+      "description": "Máscara do personagem Vessel do jogo Hollow Knight",
+      "image": "https://salsicha1001.github.io/PhotosSalsicha3d/3D/Actions%20Figures/Cosplay/Hollow%20knight/IMG_20230918_153048.jpg"
+    },
+    {
+      "id": "29db",
+      "name": "BMO - suporte para nintendo ",
+      "price": "250.00",
+      "category": "Utilitário",
+      "description": "Suporte para nintendo do personagem BMO de Hora de Aventura",
+      "image": "https://fbi.cults3d.com/uploaders/15745832/illustration-file/1d491e58-4122-48be-8884-ed506edf89a8/Complete-Docked-Front.jpg"
+    }
+  ],
+  "users": [
+    {
+      "id": "e2bc",
+      "name": "teste1",
+      "password": "teste1",
+      "email": "teste1@gmail.com"
+    },
+    {
+      "id": "22c5",
+      "name": "teste2",
+      "password": "teste2",
+      "email": "teste2@gmail.com"
+    },
+    {
+      "id": "00c0",
+      "name": "",
+      "password": "",
+      "email": ""
+    },
+    {
+      "id": "578a",
+      "name": "Rengoku",
+      "password": "12345",
+      "email": "rengoku@gmail.com"
+    }
+  ],
+  "cart": [
+    {
+      "id": "83a5",
+      "name": "Mona Figure",
+      "price": "500.00",
+      "category": "Action Figure",
+      "description": "Action figure da personagem Mona do jogo Genshin Impact.",
+      "image": "https://salsicha1001.github.io/PhotosSalsicha3d/3D/Actions%20Figures/genshin%20impact/Mona/AC535C81-8BB4-4763-AC32-9189A0EE5C04(1).jpg",
+      "quantity": 1,
+      "userId": "578a",
+      "productId": "1f24"
+    }
+  ],
+  "orders": [
+    {
+      "id": "9a98",
+      "email": "teste2@gmail.com",
+      "address": "rua2",
+      "contact": "1231235234",
+      "totalPrice": 643,
+      "userId": "22c5"
+    },
+    {
+      "id": "2479",
+      "email": "teste2@gmail.com",
+      "address": "rua do pão",
+      "contact": "123456789",
+      "totalPrice": 694.5,
+      "userId": "578a"
+    },
+    {
+      "id": "8da9",
+      "email": "teste2@gmail.com",
+      "address": "rua do pão",
+      "contact": "9999999999",
+      "totalPrice": 76.5,
+      "userId": "578a",
+      "pay": "MasterCard"
+    },
+    {
+      "id": "b982",
+      "email": "teste2@gmail.com",
+      "address": "rua2",
+      "contact": "66666666666666666",
+      "totalPrice": 540,
+      "userId": "578a",
+      "pay": "Pix"
+    }
+  ]
+}

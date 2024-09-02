@@ -1,0 +1,43 @@
+<h3 class="destaques">🔹Destaques🔹</h3>
+
+<ngb-carousel #carousel [interval]="3000" [pauseOnHover]="pauseOnHover" [pauseOnFocus]="pauseOnFocus"
+	(slide)="onSlide($event)" *ngIf="popularProducts">
+	<ng-template *ngFor="let item of popularProducts" ngbSlide>
+
+		<div class="picsum-img-wrapper">
+			<a routerLink="/details/{{item.id}}"><img class="product-img" src="{{item.image}}"
+					alt="Random first slide" /></a>
+		</div>
+
+		<div class="carousel-caption">
+			<h3>{{item.name}}</h3>
+			<p>{{item.description}}</p>
+		</div>
+	</ng-template>
+</ngb-carousel>
+
+<div class="product-list-wrapper">
+	<h1>💥 Produtos Em Alta 💥</h1>
+	<div class="row">
+		<div class="col-sm-3" *ngFor="let item of hotProducts">
+			<div class="product-item">
+				<a routerLink="/details/{{item.id}}"><img src="{{item.image}}"></a>
+				<div class="product-details">
+					<h6 class="name-head">{{item.name}}</h6>
+					<div class="product-price">
+						<h6><strong>Preço: {{item.price}} R$</strong></h6>
+					</div>
+					<div class="product-category">
+						<h6>Categoria: {{item.category}}</h6>
+					</div>
+				</div>
+				<div class="product-footer">
+					<button class="form-button" routerLink="/details/{{item.id}}"> + Detalhes Produto</button>
+					<br>
+					<button *ngIf="!removeCart" class="form-button" (click)="addToCart()">+ Carrinho</button>
+					<button *ngIf="removeCart" class="form-button" (click)="removeToCart(item.id)">Remover Produto</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
